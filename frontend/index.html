@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>取证调试控制台 · 数据中心基础设施智能运维助手</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <div>
+        <h1>数据中心基础设施智能运维助手</h1>
+        <p class="subtitle">取证调试控制台 · 配置驱动取证演示</p>
+      </div>
+    </div>
+    <div class="top-meta" id="top-meta">
+      <a class="meta-item console-link" href="/">返回模拟 DCIM</a>
+      <span class="badge badge-mock">mock 模拟数据</span>
+      <span class="meta-item">查询锚点 <b id="fixed-time">—</b></span>
+      <span class="meta-item">配置包 <b id="bundle-version">—</b></span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel composer" aria-label="提问区">
+      <div class="panel-head">
+        <div>
+          <h2>值班问数</h2>
+          <p>支持指标最新值、趋势、告警列表与计数、知识问答和告警辅助分析。</p>
+        </div>
+        <span class="pill" id="source-pill">来源分离 · 未知不等于正常</span>
+      </div>
+      <form id="query-form" class="query-form">
+        <label class="sr-only" for="query-input">输入问题</label>
+        <textarea id="query-input" maxlength="2000" rows="3" placeholder="例如：一号机房AC001送风温度最近两小时趋势，如果有异常再分析"></textarea>
+        <div class="query-actions">
+          <div class="examples" id="examples">
+            <button type="button" class="chip" data-query="一号机房AC001送风温度最近两小时趋势，如果有异常再分析">条件分析</button>
+            <button type="button" class="chip" data-query="梳理一下今天一号机房AC001高温告警发生了几次，现在还有几条未恢复">新发生 vs 活动</button>
+            <button type="button" class="chip" data-query="精密空调巡检项有哪些">知识问答</button>
+            <button type="button" class="chip" data-query="AC001送风温度现在多少">重名确认</button>
+            <button type="button" class="chip" data-query="二号机房AC001送风温度最近一小时趋势">DX 场景</button>
+          </div>
+          <button id="submit-btn" class="primary" type="submit">开始查询</button>
+        </div>
+      </form>
+      <div class="status-strip" id="status-strip" hidden>
+        <span class="status-dot" id="status-dot"></span>
+        <span id="status-text">等待输入</span>
+        <span class="status-sep"></span>
+        <span class="mono" id="request-id"></span>
+        <span class="status-sep"></span>
+        <span>revision <b id="revision">—</b></span>
+        <button id="cancel-btn" class="ghost small" type="button" hidden>取消</button>
+      </div>
+      <div class="error-banner" id="error-banner" hidden></div>
+    </section>
+
+    <section class="panel confirmation-panel" id="confirmation-panel" hidden aria-live="polite">
+      <div class="panel-head">
+        <div>
+          <h2>需要确认对象</h2>
+          <p id="confirmation-prompt"></p>
+        </div>
+        <span class="pill pill-warn">不会猜测设备或测点</span>
+      </div>
+      <div class="candidates" id="confirmation-candidates"></div>
+    </section>
+
+    <section class="tasks" id="tasks" aria-label="子任务结果"></section>
+
+    <section class="panel answer-panel" id="answer-panel" hidden>
+      <div class="panel-head">
+        <div>
+          <h2>回答</h2>
+          <p>数字、时间、单位与结构化结果保持一致；失败项不会被改写成正常。</p>
+        </div>
+        <span class="pill" id="answer-status">—</span>
+      </div>
+      <div class="answer-text" id="answer-text"></div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        演示环境使用固定模拟数据锚点，不代表实时生产状态。平台告警、程序计算结果与用户主张分别标注；
+        知识检索内容仅作为检查依据，不作为本次故障根因证据。
+      </p>
+      <p>V1.3.1 · 模式 A 配置驱动取证 · 禁止模型自由工具规划</p>
+      <p>本页是后端取证调试控制台；产品形态请从模拟 DCIM 宿主页进入。</p>
+    </footer>
+  </main>
+
+  <script type="module" src="/static/debug.js"></script>
+</body>
+</html>

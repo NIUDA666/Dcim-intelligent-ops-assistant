@@ -1,0 +1,5519 @@
+{
+  "point_asset_ac001_supply_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 23.972,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 23.993,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 24.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 24.037,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 24.058,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 24.08,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 23.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 24.007,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 24.028,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 24.072,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 24.093,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 24.115,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 24.02,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 24.042,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 24.063,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 24.085,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 24.107,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 24.128,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 24.15,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 24.055,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 24.077,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 24.098,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 24.12,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 24.142,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 24.163,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 24.185,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 24.09,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 24.112,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 24.133,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 24.155,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 24.177,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 24.198,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 24.22,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 24.125,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 24.147,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 24.168,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 24.19,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 24.212,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 24.233,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 24.255,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 24.16,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 24.182,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 24.203,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 24.225,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 24.247,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 24.268,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 24.29,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 24.195,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 24.217,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 24.238,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 24.26,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 24.282,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 24.303,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 24.325,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 24.23,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 24.252,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 24.273,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 24.295,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 24.317,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 24.338,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 24.36,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 24.265,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 24.287,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 24.308,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 24.33,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 24.352,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 24.373,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 24.395,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 24.3,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 24.322,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 24.343,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 24.365,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 24.387,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 24.408,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 24.43,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 24.335,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 24.357,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 24.378,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 24.4,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 24.422,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 24.443,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 24.465,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 24.37,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 24.392,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 24.413,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 24.435,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 24.457,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 24.478,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 24.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 24.405,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 24.427,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 24.448,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 24.47,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 24.492,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 24.513,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 24.535,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 24.44,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 24.462,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 24.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 24.55,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 24.6,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 24.65,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 24.7,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 24.75,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 24.8,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 24.85,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 24.9,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 24.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 25.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 25.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 25.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 25.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 25.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 29.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 29.02,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 29.04,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 29.06,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 29.08,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 29.1,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_asset_ac002_supply_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_asset_ac003_supply_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_asset_ac001_r2_supply_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_asset_ac004_supply_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 23.983,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 24.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 24.017,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 24.033,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 24.05,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 23.95,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 23.967,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_ac001_return_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 25.49,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 25.5,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 25.51,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 25.52,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 25.48,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_ac001_state": {
+    "unit": null,
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_chiller_supply_temp": {
+    "unit": "℃",
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 6.985,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 7.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 7.015,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 7.03,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 6.97,
+        "quality": "good"
+      }
+    ]
+  },
+  "point_power_state": {
+    "unit": null,
+    "aggregation": "raw",
+    "sampling_interval_seconds": 60,
+    "complete": true,
+    "points": [
+      {
+        "timestamp": "2026-10-26T08:30:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:31:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:32:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:33:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:34:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:35:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:36:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:37:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:38:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:39:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:40:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:41:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:42:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:43:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:44:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:45:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:46:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:47:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:48:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:49:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:50:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:51:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:52:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:53:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:54:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:55:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:56:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:57:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:58:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T08:59:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:00:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:01:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:02:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:03:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:04:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:05:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:06:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:07:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:08:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:09:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:10:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:11:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:12:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:13:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:14:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:15:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:16:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:17:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:18:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:19:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:20:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:21:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:22:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:23:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:24:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:25:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:26:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:27:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:28:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:29:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:30:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:31:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:32:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:33:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:34:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:35:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:36:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:37:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:38:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:39:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:40:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:41:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:42:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:43:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:44:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:45:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:46:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:47:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:48:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:49:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:50:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:51:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:52:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:53:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:54:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:55:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:56:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:57:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:58:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T09:59:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:00:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:01:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:02:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:03:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:04:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:05:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:06:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:07:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:08:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:09:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:10:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:11:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:12:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:13:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:14:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:15:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:16:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:17:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:18:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:19:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:20:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:21:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:22:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:23:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:24:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:25:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:26:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:27:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:28:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:29:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      },
+      {
+        "timestamp": "2026-10-26T10:30:00+08:00",
+        "value": 1.0,
+        "quality": "good"
+      }
+    ]
+  }
+}

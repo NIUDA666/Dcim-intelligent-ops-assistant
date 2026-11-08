@@ -1,0 +1,47 @@
+{
+  "bundles": [
+    {
+      "bundle_version": "demo-2026-10-26.1",
+      "published_at": "2026-11-06T15:29:12+08:00",
+      "scenario_count": 2,
+      "source_hashes": {
+        "alarm_dictionary.json": "12b3f24b5d9d5ea453fcea460c9a61d9fab539ffcc641b8d53e6adfeb111b145",
+        "fallback.yaml": "bd0073c527bf8c7ab733d130e9eb8ddd88de0567749b5e9617f85493318125e8",
+        "feature_profiles.json": "6a310188f2da8d4760e81d61dc57a553ef5794829392e517fea438cfc16e5ac0",
+        "metric_dictionary.json": "2f7933759b04a3a8fdfa6a6b77da05802e6e212528849e25dbe888b524482f75",
+        "parameter_sets.json": "a741b344ca6aae18514b39562b62a82359faf3bd8e28c6c64d84f974980eae13",
+        "scenario_snippets.yaml": "a79a3315d3f59b002bc1a18c045d48dd43ddbc2c538c43ffd0efa3ea41a00210",
+        "scenarios.yaml": "5331dde4023b1e6ae346dd25ced5e3e87f257502c51fff787b54bc6a6ec9c9b6"
+      }
+    },
+    {
+      "bundle_version": "demo-2026-10-26.2",
+      "published_at": "2026-11-06T15:30:32+08:00",
+      "scenario_count": 2,
+      "source_hashes": {
+        "alarm_dictionary.json": "12b3f24b5d9d5ea453fcea460c9a61d9fab539ffcc641b8d53e6adfeb111b145",
+        "fallback.yaml": "80c021be59913822205c0cd271c503bd98dfe68482059043daa85126455b9d7c",
+        "feature_profiles.json": "6a310188f2da8d4760e81d61dc57a553ef5794829392e517fea438cfc16e5ac0",
+        "metric_dictionary.json": "16da3eba640af91848df817c62eeaa04f9dd1e1ce8a8ae63a43af4110ef1804f",
+        "parameter_sets.json": "a741b344ca6aae18514b39562b62a82359faf3bd8e28c6c64d84f974980eae13",
+        "scenario_snippets.yaml": "1fe39f0f2961fafa1a900d96e11f403a2bdc2daa1c149cccf54084593f15998f",
+        "scenarios.yaml": "d45c0bb88bb55d0c974d89e32bb3bb1d55ca543abb1a3bdfbb789390dd680c07"
+      }
+    },
+    {
+      "bundle_version": "demo-2026-10-26.3",
+      "published_at": "2026-11-06T15:46:36+08:00",
+      "scenario_count": 2,
+      "source_hashes": {
+        "alarm_dictionary.json": "12b3f24b5d9d5ea453fcea460c9a61d9fab539ffcc641b8d53e6adfeb111b145",
+        "fallback.yaml": "7c2711827a36ef5feff191b48243052eaf4d82cc2b8eec042ed5478f278b5ee3",
+        "feature_profiles.json": "695a9c024bd30733e83e22652c69243bbe7d914449b46b797299ec9929ea2ca6",
+        "metric_dictionary.json": "16da3eba640af91848df817c62eeaa04f9dd1e1ce8a8ae63a43af4110ef1804f",
+        "parameter_sets.json": "dc17588cc736506a86ffd29d9b5c24689b84850944fa5c7c8ebc8c49f6a9bd90",
+        "scenario_snippets.yaml": "baa68a74b78db58a7bef2b37a04a8160fcbaeb702799c1e806cccfd27d4f026a",
+        "scenarios.yaml": "95fada9f6cafbe9697ac3110d98721f3078b07c94be8d7902d8fa90ac8e8b08b"
+      }
+    }
+  ],
+  "current": "demo-2026-10-26.3"
+}

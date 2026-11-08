@@ -1,0 +1,84 @@
+[
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_001",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-26T08:10:00+08:00",
+    "recovered_at": "2026-10-26T08:40:00+08:00",
+    "status": "recovered",
+    "record_type": "lifecycle"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_002",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-26T09:40:00+08:00",
+    "recovered_at": "2026-10-26T09:50:00+08:00",
+    "status": "recovered",
+    "record_type": "lifecycle"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_003",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-26T10:10:00+08:00",
+    "recovered_at": null,
+    "status": "active",
+    "record_type": "lifecycle"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_003",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-26T10:10:00+08:00",
+    "recovered_at": null,
+    "status": "active",
+    "record_type": "notification",
+    "notification_at": "2026-10-26T10:15:00+08:00"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_003",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-26T10:10:00+08:00",
+    "recovered_at": null,
+    "status": "active",
+    "record_type": "notification",
+    "notification_at": "2026-10-26T10:20:00+08:00"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_004",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-25T23:58:00+08:00",
+    "recovered_at": "2026-10-26T00:05:00+08:00",
+    "status": "recovered",
+    "record_type": "lifecycle"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_005",
+    "device_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "occurred_at": "2026-10-25T22:00:00+08:00",
+    "recovered_at": "2026-10-25T22:30:00+08:00",
+    "status": "recovered",
+    "record_type": "lifecycle"
+  },
+  {
+    "source_system": "mock-alarm",
+    "episode_id": "ep_006",
+    "device_id": "asset_ac002",
+    "alarm_type_id": "alarm_ac002_supply_high",
+    "occurred_at": "2026-10-26T09:00:00+08:00",
+    "recovered_at": "2026-10-26T09:20:00+08:00",
+    "status": "recovered",
+    "record_type": "lifecycle"
+  }
+]

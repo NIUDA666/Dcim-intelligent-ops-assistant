@@ -1,0 +1,32 @@
+schema_version: "evidence-config/1"
+bundle_version: "demo-2026-10-26.3"
+
+scenarios:
+  - id: "ac_supply_temperature_high"
+    version: "1"
+    priority: 100
+    match:
+      device_type: "precision_air_conditioner"
+      cooling_mode: "chilled_water"
+      metric_code: "supply_air_temperature"
+      anomaly_kind: "high"
+    evidence_plan:
+      include:
+        - "check_self_basic@1"
+        - "trace_upstream_cooling@1"
+        - "compare_room_peers@1"
+      feature_profile: "temperature_demo_v1"
+
+  - id: "ac_supply_temperature_high_dx"
+    version: "1"
+    priority: 110
+    match:
+      device_type: "precision_air_conditioner"
+      cooling_mode: "dx"
+      metric_code: "supply_air_temperature"
+      anomaly_kind: "high"
+    evidence_plan:
+      include:
+        - "check_self_basic@1"
+        - "compare_room_peers@1"
+      feature_profile: "temperature_demo_v1"

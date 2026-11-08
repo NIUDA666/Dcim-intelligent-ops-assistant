@@ -1,0 +1,92 @@
+[
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac001",
+    "metric_code": "supply_air_temperature",
+    "channel": "default",
+    "point_id": "point_asset_ac001_supply_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac001",
+    "metric_code": "return_air_temperature",
+    "channel": "default",
+    "point_id": "point_ac001_return_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac001",
+    "metric_code": "operating_state",
+    "channel": "default",
+    "point_id": "point_ac001_state",
+    "unit": null,
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac002",
+    "metric_code": "supply_air_temperature",
+    "channel": "default",
+    "point_id": "point_asset_ac002_supply_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac003",
+    "metric_code": "supply_air_temperature",
+    "channel": "default",
+    "point_id": "point_asset_ac003_supply_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac001_r2",
+    "metric_code": "supply_air_temperature",
+    "channel": "default",
+    "point_id": "point_asset_ac001_r2_supply_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac004",
+    "metric_code": "supply_air_temperature",
+    "channel": "default",
+    "point_id": "point_asset_ac004_supply_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_chiller_01",
+    "metric_code": "chilled_water_supply_temperature",
+    "channel": "default",
+    "point_id": "point_chiller_supply_temp",
+    "unit": "℃",
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  },
+  {
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_power_01",
+    "metric_code": "operating_state",
+    "channel": "default",
+    "point_id": "point_power_state",
+    "unit": null,
+    "aggregation": "raw",
+    "expected_interval_seconds": 60
+  }
+]

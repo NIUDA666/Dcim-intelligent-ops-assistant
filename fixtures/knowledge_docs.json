@@ -1,0 +1,61 @@
+[
+  {
+    "doc_id": "sop_ac_high_temp",
+    "doc_version": "2026.10",
+    "doc_type": "sop",
+    "title": "精密空调送风温度高核查规程",
+    "device_types": [
+      "precision_air_conditioner"
+    ],
+    "site_scope": [
+      "site_01"
+    ],
+    "review_status": "approved",
+    "publication_status": "published",
+    "valid_from": "2026-01-01T00:00:00+08:00",
+    "valid_to": "2027-12-31T23:59:59+08:00",
+    "chunks": [
+      {
+        "chunk_id": "sop_ac_high_temp#1",
+        "section": "初步核查",
+        "text": "确认送风温度测点绑定和单位，核对回风温度、风机运行状态、运行模式与设定值；查看同一区域其他空调是否同步升温；检查冷冻水供水温度、阀门和支路状态。"
+      },
+      {
+        "chunk_id": "sop_ac_high_temp#2",
+        "section": "证据要求",
+        "text": "持续超限判断需要有效阈值、连续采样、持续时间参数和足够历史覆盖；缺少参数或数据时只能记录未知，不得判定设备正常。"
+      },
+      {
+        "chunk_id": "sop_ac_high_temp#3",
+        "section": "安全边界",
+        "text": "涉及停机、倒闸、投退、启停或设定值调整时，应按现场审批制度和操作票执行；本规程不替代现场操作许可。"
+      }
+    ]
+  },
+  {
+    "doc_id": "manual_crac_x1",
+    "doc_version": "2026.08",
+    "doc_type": "manual",
+    "title": "CRAC-X1 精密空调技术手册",
+    "device_types": [
+      "precision_air_conditioner"
+    ],
+    "site_scope": [],
+    "review_status": "approved",
+    "publication_status": "published",
+    "valid_from": "2026-01-01T00:00:00+08:00",
+    "valid_to": "2028-12-31T23:59:59+08:00",
+    "chunks": [
+      {
+        "chunk_id": "manual_crac_x1#1",
+        "section": "运行参数",
+        "text": "CRAC-X1 的送风温度控制与回风温度、设定值、风机反馈和冷冻水阀开度相关。现场核查应先确认测点通道与机组运行模式，再检查风机和冷冻水支路。"
+      },
+      {
+        "chunk_id": "manual_crac_x1#2",
+        "section": "维护检查",
+        "text": "维护检查包括滤网压差、风机反馈、冷凝水排放和传感器接线。涉及部件更换或停机操作时，按现场规程和审批要求执行。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "work_order_id": "wo_001",
+    "asset_id": "asset_ac001",
+    "created_at": "2026-10-26T10:20:00+08:00",
+    "status": "open",
+    "summary": "值班人员已发起现场核查，尚未反馈结果"
+  }
+]

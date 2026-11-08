@@ -1,0 +1,55 @@
+{
+  "schema_version": "parameter-sets/1",
+  "common_set": {
+    "parameter_set_id": "temperature_common",
+    "version": "1",
+    "profile_id": "temperature_demo_v1",
+    "values": {
+      "window_seconds": 7200,
+      "expected_interval_seconds": 60,
+      "max_gap_seconds": 120,
+      "min_sample_count": 30,
+      "max_missing_ratio": 0.2,
+      "sustained_threshold_c": 27.5,
+      "sustained_min_consecutive_samples": 5,
+      "baseline_window_minutes": 60,
+      "local_elevation_delta_c": 3.0,
+      "local_elevation_min_consecutive_samples": 3,
+      "peer_delta_c": 2.5,
+      "peer_min_count": 2,
+      "short_spike_delta_c": 4.0,
+      "short_spike_max_duration_minutes": 3
+    },
+    "source": "模拟审核参数集，仅用于演示，不代表生产运行限值",
+    "reviewed_at": "2026-10-20"
+  },
+  "overrides": [
+    {
+      "parameter_set_id": "temperature_crac_x1",
+      "version": "1",
+      "profile_id": "temperature_demo_v1",
+      "applies": {
+        "model_code": ["CRAC-X1"]
+      },
+      "values": {
+        "sustained_threshold_c": 28.0
+      },
+      "source": "模拟型号审核参数覆盖，仅用于演示",
+      "reviewed_at": "2026-10-20"
+    }
+  ],
+  "fallback_set": {
+    "parameter_set_id": "basic_observation",
+    "version": "1",
+    "profile_id": "basic_observation_v1",
+    "values": {
+      "window_seconds": 7200,
+      "expected_interval_seconds": 60,
+      "max_gap_seconds": 120,
+      "min_sample_count": 10,
+      "max_missing_ratio": 0.3
+    },
+    "source": "模拟兜底参数集，仅用于演示",
+    "reviewed_at": "2026-10-20"
+  }
+}

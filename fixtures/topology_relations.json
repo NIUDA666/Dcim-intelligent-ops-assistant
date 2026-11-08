@@ -1,0 +1,62 @@
+[
+  {
+    "source_system": "mock-topology",
+    "query_asset_id": "asset_ac001",
+    "rel_type": "supply_cooling",
+    "direction": "upstream",
+    "raw_rel_type": "chilled_water_supply",
+    "from_device_id": "asset_chiller_01",
+    "to_device_id": "asset_ac001",
+    "relation_id": "rel_cool_ac001",
+    "path_ref": "path_chiller_ac001",
+    "temporal_basis": "current_registered_topology"
+  },
+  {
+    "source_system": "mock-topology",
+    "query_asset_id": "asset_ac002",
+    "rel_type": "supply_cooling",
+    "direction": "upstream",
+    "raw_rel_type": "chilled_water_supply",
+    "from_device_id": "asset_chiller_01",
+    "to_device_id": "asset_ac002",
+    "relation_id": "rel_cool_ac002",
+    "path_ref": "path_chiller_ac002",
+    "temporal_basis": "current_registered_topology"
+  },
+  {
+    "source_system": "mock-topology",
+    "query_asset_id": "asset_ac003",
+    "rel_type": "supply_cooling",
+    "direction": "upstream",
+    "raw_rel_type": "chilled_water_supply",
+    "from_device_id": "asset_chiller_01",
+    "to_device_id": "asset_ac003",
+    "relation_id": "rel_cool_ac003",
+    "path_ref": "path_chiller_ac003",
+    "temporal_basis": "current_registered_topology"
+  },
+  {
+    "source_system": "mock-topology",
+    "query_asset_id": "asset_ac001",
+    "rel_type": "supply_power",
+    "direction": "upstream",
+    "raw_rel_type": "power_supply",
+    "from_device_id": "asset_power_01",
+    "to_device_id": "asset_ac001",
+    "relation_id": "rel_power_ac001",
+    "path_ref": "path_power_ac001",
+    "temporal_basis": "current_registered_topology"
+  },
+  {
+    "source_system": "mock-topology",
+    "query_asset_id": "asset_ac002",
+    "rel_type": "unknown",
+    "direction": "upstream",
+    "raw_rel_type": "control_link",
+    "from_device_id": "asset_chiller_01",
+    "to_device_id": "asset_ac002",
+    "relation_id": "rel_unknown_ac002",
+    "path_ref": "path_control_ac002",
+    "temporal_basis": "current_registered_topology"
+  }
+]

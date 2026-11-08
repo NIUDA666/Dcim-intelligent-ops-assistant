@@ -1,0 +1,30 @@
+[
+  {
+    "faq_id": "faq_crac_inspection",
+    "canonical_question": "精密空调巡检项有哪些",
+    "question_variants": [
+      "精密空调日常巡检项目",
+      "空调巡检要检查什么"
+    ],
+    "answer": "通用巡检应核对送风/回风温度测点、运行状态、风机反馈、滤网压差、冷凝水排放和冷冻水支路；具体项目以现场有效 SOP 和型号手册为准。",
+    "source_refs": [
+      {
+        "doc_id": "manual_crac_x1",
+        "doc_version": "2026.08",
+        "chunk_id": "manual_crac_x1#2"
+      },
+      {
+        "doc_id": "sop_ac_high_temp",
+        "doc_version": "2026.10",
+        "chunk_id": "sop_ac_high_temp#1"
+      }
+    ],
+    "scope": "generic",
+    "risk_level": "low",
+    "review_status": "approved",
+    "publication_status": "published",
+    "valid_from": "2026-01-01T00:00:00+08:00",
+    "valid_to": "2027-12-31T23:59:59+08:00",
+    "source_revision_hash": "demo-faq-rev-1"
+  }
+]

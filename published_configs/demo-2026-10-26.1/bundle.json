@@ -1,0 +1,613 @@
+{
+  "alarm_dictionary": {
+    "alarm_types": {
+      "alarm_ac001_r2_supply_high": {
+        "anomaly_kind": "high",
+        "lifecycle_mode": "occurrence_recovery",
+        "metric_code": "supply_air_temperature",
+        "name": "送风温度高",
+        "version": "demo-1"
+      },
+      "alarm_ac001_supply_high": {
+        "anomaly_kind": "high",
+        "lifecycle_mode": "occurrence_recovery",
+        "metric_code": "supply_air_temperature",
+        "name": "送风温度高",
+        "version": "demo-1"
+      },
+      "alarm_ac002_supply_high": {
+        "anomaly_kind": "high",
+        "lifecycle_mode": "occurrence_recovery",
+        "metric_code": "supply_air_temperature",
+        "name": "送风温度高",
+        "version": "demo-1"
+      },
+      "alarm_ac003_supply_high": {
+        "anomaly_kind": "high",
+        "lifecycle_mode": "occurrence_recovery",
+        "metric_code": "supply_air_temperature",
+        "name": "送风温度高",
+        "version": "demo-1"
+      },
+      "alarm_ac004_supply_high": {
+        "anomaly_kind": "high",
+        "lifecycle_mode": "occurrence_recovery",
+        "metric_code": "supply_air_temperature",
+        "name": "送风温度高",
+        "version": "demo-1"
+      }
+    },
+    "alias_index": {
+      "送风温度高": {
+        "anomaly_kind": "high",
+        "metric_code": "supply_air_temperature"
+      },
+      "高温": {
+        "anomaly_kind": "high",
+        "metric_code": "supply_air_temperature"
+      },
+      "高温告警": {
+        "anomaly_kind": "high",
+        "metric_code": "supply_air_temperature"
+      }
+    },
+    "dictionary_version": "demo-1",
+    "schema_version": "alarm-dictionary/1"
+  },
+  "bundle_version": "demo-2026-10-26.1",
+  "fallback": {
+    "base_plan_hash": "4fa692aa4cd72a186466689355ff610df7212964f0b27dfda3e1dbeb9f93a9f9",
+    "expanded_steps": [
+      {
+        "action": "metric_history",
+        "asset_types": null,
+        "direction": null,
+        "id": "trigger_metric_history",
+        "include_alarms": false,
+        "metrics": {
+          "optional": [
+            "operating_state"
+          ],
+          "required": [
+            "$trigger_metric"
+          ]
+        },
+        "rel_type": null,
+        "selector": null,
+        "source_snippet": null,
+        "source_snippet_version": null,
+        "step_uid": "fallback@1/trigger_metric_history",
+        "target": "self"
+      },
+      {
+        "action": "alarm_history",
+        "asset_types": null,
+        "direction": null,
+        "id": "self_alarms",
+        "include_alarms": false,
+        "metrics": null,
+        "rel_type": null,
+        "selector": null,
+        "source_snippet": null,
+        "source_snippet_version": null,
+        "step_uid": "fallback@1/self_alarms",
+        "target": "self"
+      }
+    ],
+    "feature_profile": "basic_observation_v1",
+    "id": "self_only",
+    "profile_version": "1",
+    "version": "1"
+  },
+  "feature_profiles": {
+    "profiles": {
+      "basic_observation_v1": {
+        "algorithm_versions": {
+          "data_quality": "1.0",
+          "reading_summary": "1.0"
+        },
+        "description": "本机兜底观测：只整理读数、数据质量与告警，不作跨设备根因判断。",
+        "optional_metrics": [
+          "operating_state"
+        ],
+        "parameter_schema": {
+          "max_missing_ratio": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "overridable": true,
+            "type": "number"
+          },
+          "min_sample_count": {
+            "maximum": null,
+            "minimum": 2.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "window_seconds": {
+            "maximum": 7200.0,
+            "minimum": 60.0,
+            "overridable": false,
+            "type": "integer"
+          }
+        },
+        "required_metrics": [],
+        "version": "1"
+      },
+      "temperature_demo_v1": {
+        "algorithm_versions": {
+          "data_quality": "1.0",
+          "local_elevation": "1.0",
+          "peer_comparison": "1.0",
+          "short_spike": "1.0",
+          "sustained_threshold": "1.0"
+        },
+        "description": "模拟温度专项特征算法，参数仅用于演示，不代表生产限值。",
+        "optional_metrics": [
+          "return_air_temperature",
+          "fan_speed_feedback"
+        ],
+        "parameter_schema": {
+          "baseline_window_minutes": {
+            "maximum": 7200.0,
+            "minimum": 1.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "local_elevation_delta_c": {
+            "maximum": null,
+            "minimum": 0.0,
+            "overridable": true,
+            "type": "number"
+          },
+          "local_elevation_min_consecutive_samples": {
+            "maximum": null,
+            "minimum": 1.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "max_missing_ratio": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "overridable": true,
+            "type": "number"
+          },
+          "min_sample_count": {
+            "maximum": null,
+            "minimum": 2.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "peer_delta_c": {
+            "maximum": null,
+            "minimum": 0.0,
+            "overridable": true,
+            "type": "number"
+          },
+          "peer_min_count": {
+            "maximum": null,
+            "minimum": 1.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "short_spike_delta_c": {
+            "maximum": null,
+            "minimum": 0.0,
+            "overridable": true,
+            "type": "number"
+          },
+          "short_spike_max_duration_minutes": {
+            "maximum": null,
+            "minimum": 1.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "sustained_min_consecutive_samples": {
+            "maximum": null,
+            "minimum": 1.0,
+            "overridable": true,
+            "type": "integer"
+          },
+          "sustained_threshold_c": {
+            "maximum": 150.0,
+            "minimum": -50.0,
+            "overridable": true,
+            "type": "number"
+          },
+          "window_seconds": {
+            "maximum": 7200.0,
+            "minimum": 60.0,
+            "overridable": false,
+            "type": "integer"
+          }
+        },
+        "required_metrics": [
+          "supply_air_temperature"
+        ],
+        "version": "1"
+      }
+    },
+    "schema_version": "feature-profiles/1"
+  },
+  "limits": {
+    "deadline_ms": 15000,
+    "max_asset_hops": 1,
+    "max_raw_hops": 4,
+    "max_related_assets": 4,
+    "max_step_count": 8,
+    "max_tool_calls": 32,
+    "max_window_seconds": 7200
+  },
+  "manifest": {
+    "bundle_version": "demo-2026-10-26.1",
+    "dependencies": {
+      "ac_supply_temperature_high": [
+        "check_self_basic",
+        "compare_room_peers",
+        "trace_upstream_cooling",
+        "1"
+      ],
+      "ac_supply_temperature_high_dx": [
+        "check_self_basic",
+        "compare_room_peers",
+        "1"
+      ]
+    },
+    "fallback_plan_hash": "4fa692aa4cd72a186466689355ff610df7212964f0b27dfda3e1dbeb9f93a9f9",
+    "published_at": "2026-11-06T15:29:12+08:00",
+    "scenario_plan_hashes": {
+      "ac_supply_temperature_high": "acd9934694bdb34b6f5b7bda86a5dc1d0d372f086a586e099b961d85e18100db",
+      "ac_supply_temperature_high_dx": "a6004da7f2a91b7c4ee277f3f63c2bc3e2cdf3fa58368fd3ef3a152c3c29392c"
+    },
+    "source_hashes": {
+      "alarm_dictionary.json": "12b3f24b5d9d5ea453fcea460c9a61d9fab539ffcc641b8d53e6adfeb111b145",
+      "fallback.yaml": "bd0073c527bf8c7ab733d130e9eb8ddd88de0567749b5e9617f85493318125e8",
+      "feature_profiles.json": "6a310188f2da8d4760e81d61dc57a553ef5794829392e517fea438cfc16e5ac0",
+      "metric_dictionary.json": "2f7933759b04a3a8fdfa6a6b77da05802e6e212528849e25dbe888b524482f75",
+      "parameter_sets.json": "a741b344ca6aae18514b39562b62a82359faf3bd8e28c6c64d84f974980eae13",
+      "scenario_snippets.yaml": "a79a3315d3f59b002bc1a18c045d48dd43ddbc2c538c43ffd0efa3ea41a00210",
+      "scenarios.yaml": "5331dde4023b1e6ae346dd25ced5e3e87f257502c51fff787b54bc6a6ec9c9b6"
+    },
+    "unreferenced_snippets": [
+      "trace_upstream_power"
+    ],
+    "warnings": [
+      "存在未被场景引用的片段：trace_upstream_power"
+    ]
+  },
+  "metric_dictionary": {
+    "dictionary_version": "demo-1",
+    "metrics": {
+      "chilled_water_supply_temperature": {
+        "aggregations": [
+          "latest",
+          "avg",
+          "max",
+          "min"
+        ],
+        "device_types": [
+          "chiller"
+        ],
+        "name": "冷冻水供水温度",
+        "quality_required": true,
+        "unit": "°C",
+        "value_type": "float"
+      },
+      "fan_speed_feedback": {
+        "aggregations": [
+          "latest",
+          "avg",
+          "max",
+          "min"
+        ],
+        "device_types": [
+          "precision_air_conditioner"
+        ],
+        "name": "风机转速反馈",
+        "quality_required": true,
+        "unit": "rpm",
+        "value_type": "integer"
+      },
+      "operating_state": {
+        "aggregations": [
+          "latest"
+        ],
+        "device_types": [
+          "precision_air_conditioner",
+          "chiller",
+          "power_distribution"
+        ],
+        "name": "运行状态",
+        "quality_required": true,
+        "unit": null,
+        "value_type": "enum"
+      },
+      "output_voltage": {
+        "aggregations": [
+          "latest",
+          "avg",
+          "max",
+          "min"
+        ],
+        "device_types": [
+          "power_distribution"
+        ],
+        "name": "输出电压",
+        "quality_required": true,
+        "unit": "V",
+        "value_type": "float"
+      },
+      "return_air_temperature": {
+        "aggregations": [
+          "latest",
+          "avg",
+          "max",
+          "min"
+        ],
+        "device_types": [
+          "precision_air_conditioner"
+        ],
+        "name": "回风温度",
+        "quality_required": true,
+        "unit": "°C",
+        "value_type": "float"
+      },
+      "supply_air_temperature": {
+        "aggregations": [
+          "latest",
+          "avg",
+          "max",
+          "min"
+        ],
+        "device_types": [
+          "precision_air_conditioner"
+        ],
+        "name": "送风温度",
+        "quality_required": true,
+        "unit": "°C",
+        "value_type": "float"
+      }
+    },
+    "schema_version": "metric-dictionary/1"
+  },
+  "parameter_sets": {
+    "common_set": {
+      "parameter_set_id": "temperature_common",
+      "profile_id": "temperature_demo_v1",
+      "reviewed_at": "2026-10-20",
+      "source": "模拟审核参数集，仅用于演示，不代表生产运行限值",
+      "values": {
+        "baseline_window_minutes": 60,
+        "local_elevation_delta_c": 3.0,
+        "local_elevation_min_consecutive_samples": 3,
+        "max_missing_ratio": 0.2,
+        "min_sample_count": 30,
+        "peer_delta_c": 2.5,
+        "peer_min_count": 2,
+        "short_spike_delta_c": 4.0,
+        "short_spike_max_duration_minutes": 3,
+        "sustained_min_consecutive_samples": 5,
+        "sustained_threshold_c": 27.5,
+        "window_seconds": 7200
+      },
+      "version": "1"
+    },
+    "fallback_set": {
+      "parameter_set_id": "basic_observation",
+      "profile_id": "basic_observation_v1",
+      "reviewed_at": "2026-10-20",
+      "source": "模拟兜底参数集，仅用于演示",
+      "values": {
+        "max_missing_ratio": 0.3,
+        "min_sample_count": 10,
+        "window_seconds": 7200
+      },
+      "version": "1"
+    },
+    "overrides": [
+      {
+        "applies": {
+          "model_code": [
+            "CRAC-X1"
+          ]
+        },
+        "parameter_set_id": "temperature_crac_x1",
+        "profile_id": "temperature_demo_v1",
+        "reviewed_at": "2026-10-20",
+        "source": "模拟型号审核参数覆盖，仅用于演示",
+        "values": {
+          "sustained_threshold_c": 28.0
+        },
+        "version": "1"
+      }
+    ],
+    "schema_version": "parameter-sets/1"
+  },
+  "scenarios": [
+    {
+      "base_plan_hash": "acd9934694bdb34b6f5b7bda86a5dc1d0d372f086a586e099b961d85e18100db",
+      "expanded_steps": [
+        {
+          "action": "metric_history",
+          "asset_types": null,
+          "direction": null,
+          "id": "self_trend",
+          "include_alarms": false,
+          "metrics": {
+            "optional": [
+              "return_air_temperature",
+              "fan_speed_feedback"
+            ],
+            "required": [
+              "supply_air_temperature"
+            ]
+          },
+          "rel_type": null,
+          "selector": null,
+          "source_snippet": "check_self_basic",
+          "source_snippet_version": "1",
+          "step_uid": "check_self_basic@1/self_trend",
+          "target": "self"
+        },
+        {
+          "action": "alarm_history",
+          "asset_types": null,
+          "direction": null,
+          "id": "self_alarms",
+          "include_alarms": false,
+          "metrics": null,
+          "rel_type": null,
+          "selector": null,
+          "source_snippet": "check_self_basic",
+          "source_snippet_version": "1",
+          "step_uid": "check_self_basic@1/self_alarms",
+          "target": "self"
+        },
+        {
+          "action": "related_evidence",
+          "asset_types": [
+            "chiller"
+          ],
+          "direction": "upstream",
+          "id": "cooling_evidence",
+          "include_alarms": true,
+          "metrics": {
+            "optional": [],
+            "required": [
+              "chilled_water_supply_temperature"
+            ]
+          },
+          "rel_type": "supply_cooling",
+          "selector": null,
+          "source_snippet": "trace_upstream_cooling",
+          "source_snippet_version": "1",
+          "step_uid": "trace_upstream_cooling@1/cooling_evidence",
+          "target": null
+        },
+        {
+          "action": "peer_evidence",
+          "asset_types": null,
+          "direction": null,
+          "id": "peer_temperature",
+          "include_alarms": false,
+          "metrics": {
+            "optional": [],
+            "required": [
+              "supply_air_temperature"
+            ]
+          },
+          "rel_type": null,
+          "selector": "same_room_same_device_type",
+          "source_snippet": "compare_room_peers",
+          "source_snippet_version": "1",
+          "step_uid": "compare_room_peers@1/peer_temperature",
+          "target": null
+        }
+      ],
+      "feature_profile": "temperature_demo_v1",
+      "id": "ac_supply_temperature_high",
+      "include": [
+        "check_self_basic@1",
+        "trace_upstream_cooling@1",
+        "compare_room_peers@1"
+      ],
+      "match": {
+        "anomaly_kind": "high",
+        "cooling_mode": "chilled_water",
+        "device_type": "precision_air_conditioner",
+        "metric_code": "supply_air_temperature",
+        "model_code": null,
+        "site_id": null
+      },
+      "priority": 100,
+      "profile_version": "1",
+      "snippet_versions": {
+        "check_self_basic": "1",
+        "compare_room_peers": "1",
+        "trace_upstream_cooling": "1"
+      },
+      "version": "1"
+    },
+    {
+      "base_plan_hash": "a6004da7f2a91b7c4ee277f3f63c2bc3e2cdf3fa58368fd3ef3a152c3c29392c",
+      "expanded_steps": [
+        {
+          "action": "metric_history",
+          "asset_types": null,
+          "direction": null,
+          "id": "self_trend",
+          "include_alarms": false,
+          "metrics": {
+            "optional": [
+              "return_air_temperature",
+              "fan_speed_feedback"
+            ],
+            "required": [
+              "supply_air_temperature"
+            ]
+          },
+          "rel_type": null,
+          "selector": null,
+          "source_snippet": "check_self_basic",
+          "source_snippet_version": "1",
+          "step_uid": "check_self_basic@1/self_trend",
+          "target": "self"
+        },
+        {
+          "action": "alarm_history",
+          "asset_types": null,
+          "direction": null,
+          "id": "self_alarms",
+          "include_alarms": false,
+          "metrics": null,
+          "rel_type": null,
+          "selector": null,
+          "source_snippet": "check_self_basic",
+          "source_snippet_version": "1",
+          "step_uid": "check_self_basic@1/self_alarms",
+          "target": "self"
+        },
+        {
+          "action": "peer_evidence",
+          "asset_types": null,
+          "direction": null,
+          "id": "peer_temperature",
+          "include_alarms": false,
+          "metrics": {
+            "optional": [],
+            "required": [
+              "supply_air_temperature"
+            ]
+          },
+          "rel_type": null,
+          "selector": "same_room_same_device_type",
+          "source_snippet": "compare_room_peers",
+          "source_snippet_version": "1",
+          "step_uid": "compare_room_peers@1/peer_temperature",
+          "target": null
+        }
+      ],
+      "feature_profile": "temperature_demo_v1",
+      "id": "ac_supply_temperature_high_dx",
+      "include": [
+        "check_self_basic@1",
+        "compare_room_peers@1"
+      ],
+      "match": {
+        "anomaly_kind": "high",
+        "cooling_mode": "dx",
+        "device_type": "precision_air_conditioner",
+        "metric_code": "supply_air_temperature",
+        "model_code": null,
+        "site_id": null
+      },
+      "priority": 110,
+      "profile_version": "1",
+      "snippet_versions": {
+        "check_self_basic": "1",
+        "compare_room_peers": "1"
+      },
+      "version": "1"
+    }
+  ],
+  "schema_version": "published-bundle/1"
+}

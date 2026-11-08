@@ -1,0 +1,51 @@
+{
+  "schema_version": "feature-profiles/1",
+  "profiles": {
+    "temperature_demo_v1": {
+      "version": "1",
+      "description": "模拟温度专项特征算法，参数仅用于演示，不代表生产限值。",
+      "required_metrics": ["supply_air_temperature"],
+      "optional_metrics": ["return_air_temperature", "fan_speed_feedback"],
+      "algorithm_versions": {
+        "data_quality": "1.0",
+        "sustained_threshold": "1.0",
+        "local_elevation": "1.0",
+        "peer_comparison": "1.0",
+        "short_spike": "1.0"
+      },
+      "parameter_schema": {
+        "window_seconds": {"type": "integer", "minimum": 60, "maximum": 7200, "overridable": false},
+        "expected_interval_seconds": {"type": "integer", "minimum": 1, "maximum": 3600, "overridable": false},
+        "max_gap_seconds": {"type": "integer", "minimum": 1, "maximum": 3600, "overridable": true},
+        "min_sample_count": {"type": "integer", "minimum": 2, "overridable": true},
+        "max_missing_ratio": {"type": "number", "minimum": 0, "maximum": 1, "overridable": true},
+        "sustained_threshold_c": {"type": "number", "minimum": -50, "maximum": 150, "overridable": true},
+        "sustained_min_consecutive_samples": {"type": "integer", "minimum": 1, "overridable": true},
+        "baseline_window_minutes": {"type": "integer", "minimum": 1, "maximum": 7200, "overridable": true},
+        "local_elevation_delta_c": {"type": "number", "minimum": 0, "overridable": true},
+        "local_elevation_min_consecutive_samples": {"type": "integer", "minimum": 1, "overridable": true},
+        "peer_delta_c": {"type": "number", "minimum": 0, "overridable": true},
+        "peer_min_count": {"type": "integer", "minimum": 1, "overridable": true},
+        "short_spike_delta_c": {"type": "number", "minimum": 0, "overridable": true},
+        "short_spike_max_duration_minutes": {"type": "integer", "minimum": 1, "overridable": true}
+      }
+    },
+    "basic_observation_v1": {
+      "version": "1",
+      "description": "本机兜底观测：只整理读数、数据质量与告警，不作跨设备根因判断。",
+      "required_metrics": [],
+      "optional_metrics": ["operating_state"],
+      "algorithm_versions": {
+        "data_quality": "1.0",
+        "reading_summary": "1.0"
+      },
+      "parameter_schema": {
+        "window_seconds": {"type": "integer", "minimum": 60, "maximum": 7200, "overridable": false},
+        "expected_interval_seconds": {"type": "integer", "minimum": 1, "maximum": 3600, "overridable": false},
+        "max_gap_seconds": {"type": "integer", "minimum": 1, "maximum": 3600, "overridable": true},
+        "min_sample_count": {"type": "integer", "minimum": 2, "overridable": true},
+        "max_missing_ratio": {"type": "number", "minimum": 0, "maximum": 1, "overridable": true}
+      }
+    }
+  }
+}

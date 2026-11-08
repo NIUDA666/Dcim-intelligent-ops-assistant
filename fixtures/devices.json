@@ -1,0 +1,191 @@
+[
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac001",
+    "device_code": "AC001",
+    "name": "精密空调 AC001",
+    "site_id": "site_01",
+    "room_id": "room_01",
+    "room_name": "一号机房",
+    "room_aliases": [
+      "一号机房",
+      "1号机房",
+      "机房一"
+    ],
+    "type_code": "precision_air_conditioner",
+    "model_code": "CRAC-X1",
+    "cooling_mode": "chilled_water",
+    "capabilities": [
+      "chilled_water",
+      "supply_air_temperature",
+      "return_air_temperature",
+      "operating_state"
+    ],
+    "aliases": [
+      "AC001",
+      "AC-001",
+      "1号空调"
+    ],
+    "status": "active"
+  },
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac002",
+    "device_code": "AC002",
+    "name": "精密空调 AC002",
+    "site_id": "site_01",
+    "room_id": "room_01",
+    "room_name": "一号机房",
+    "room_aliases": [
+      "一号机房",
+      "1号机房",
+      "机房一"
+    ],
+    "type_code": "precision_air_conditioner",
+    "model_code": "CRAC-X1",
+    "cooling_mode": "chilled_water",
+    "capabilities": [
+      "chilled_water",
+      "supply_air_temperature",
+      "operating_state"
+    ],
+    "aliases": [
+      "AC002",
+      "2号空调"
+    ],
+    "status": "active"
+  },
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac003",
+    "device_code": "AC003",
+    "name": "精密空调 AC003",
+    "site_id": "site_01",
+    "room_id": "room_01",
+    "room_name": "一号机房",
+    "room_aliases": [
+      "一号机房",
+      "1号机房",
+      "机房一"
+    ],
+    "type_code": "precision_air_conditioner",
+    "model_code": "CRAC-X1",
+    "cooling_mode": "chilled_water",
+    "capabilities": [
+      "chilled_water",
+      "supply_air_temperature",
+      "operating_state"
+    ],
+    "aliases": [
+      "AC003",
+      "3号空调"
+    ],
+    "status": "active"
+  },
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac001_r2",
+    "device_code": "AC001",
+    "name": "精密空调 AC001（二号机房）",
+    "site_id": "site_01",
+    "room_id": "room_02",
+    "room_name": "二号机房",
+    "room_aliases": [
+      "二号机房",
+      "2号机房",
+      "机房二"
+    ],
+    "type_code": "precision_air_conditioner",
+    "model_code": "CRAC-X1",
+    "cooling_mode": "chilled_water",
+    "capabilities": [
+      "chilled_water",
+      "supply_air_temperature",
+      "operating_state"
+    ],
+    "aliases": [
+      "AC001",
+      "AC-001"
+    ],
+    "status": "active"
+  },
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_ac004",
+    "device_code": "AC004",
+    "name": "精密空调 AC004",
+    "site_id": "site_01",
+    "room_id": "room_02",
+    "room_name": "二号机房",
+    "room_aliases": [
+      "二号机房",
+      "2号机房",
+      "机房二"
+    ],
+    "type_code": "precision_air_conditioner",
+    "model_code": "CRAC-DX2",
+    "cooling_mode": "dx",
+    "capabilities": [
+      "supply_air_temperature",
+      "operating_state"
+    ],
+    "aliases": [
+      "AC004",
+      "4号空调"
+    ],
+    "status": "active"
+  },
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_chiller_01",
+    "device_code": "CH001",
+    "name": "冷水机组 CH001",
+    "site_id": "site_01",
+    "room_id": "room_00",
+    "room_name": "冷源机房",
+    "room_aliases": [
+      "冷源机房"
+    ],
+    "type_code": "chiller",
+    "model_code": "CH-200",
+    "cooling_mode": "chilled_water",
+    "capabilities": [
+      "chilled_water_supply_temperature"
+    ],
+    "aliases": [
+      "CH001",
+      "冷机1"
+    ],
+    "status": "active"
+  },
+  {
+    "tenant_id": "tenant_demo",
+    "platform_instance_id": "mock-platform-01",
+    "asset_id": "asset_power_01",
+    "device_code": "PD001",
+    "name": "配电柜 PD001",
+    "site_id": "site_01",
+    "room_id": "room_00",
+    "room_name": "配电间",
+    "room_aliases": [
+      "配电间"
+    ],
+    "type_code": "power_distribution",
+    "model_code": "PD-100",
+    "capabilities": [
+      "operating_state",
+      "output_voltage"
+    ],
+    "aliases": [
+      "PD001",
+      "配电柜1"
+    ],
+    "status": "active"
+  }
+]

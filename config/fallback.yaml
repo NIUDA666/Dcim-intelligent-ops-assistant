@@ -1,0 +1,18 @@
+schema_version: "evidence-config/1"
+bundle_version: "demo-2026-10-26.3"
+
+fallback:
+  id: "self_only"
+  version: "1"
+  evidence_plan:
+    steps:
+      - id: "trigger_metric_history"
+        action: "metric_history"
+        target: "self"
+        metrics:
+          required: ["$trigger_metric"]
+          optional: ["operating_state"]
+      - id: "self_alarms"
+        action: "alarm_history"
+        target: "self"
+    feature_profile: "basic_observation_v1"

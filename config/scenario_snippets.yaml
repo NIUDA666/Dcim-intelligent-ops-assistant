@@ -1,0 +1,62 @@
+schema_version: "evidence-config/1"
+bundle_version: "demo-2026-10-26.3"
+
+limits:
+  max_step_count: 8
+  max_related_assets: 4
+  max_asset_hops: 1
+  max_raw_hops: 4
+  max_window_seconds: 7200
+  max_tool_calls: 32
+  deadline_ms: 15000
+
+snippets:
+  check_self_basic:
+    version: "1"
+    steps:
+      - id: "self_trend"
+        action: "metric_history"
+        target: "self"
+        metrics:
+          required: ["supply_air_temperature"]
+          optional: ["return_air_temperature", "fan_speed_feedback"]
+      - id: "self_alarms"
+        action: "alarm_history"
+        target: "self"
+
+  trace_upstream_cooling:
+    version: "1"
+    steps:
+      - id: "cooling_evidence"
+        action: "related_evidence"
+        rel_type: "supply_cooling"
+        direction: "upstream"
+        asset_types: ["chiller"]
+        metrics:
+          required: ["chilled_water_supply_temperature"]
+          optional: []
+        include_alarms: true
+
+  trace_upstream_power:
+    version: "1"
+    steps:
+      - id: "power_evidence"
+        action: "related_evidence"
+        rel_type: "supply_power"
+        direction: "upstream"
+        asset_types: ["power_distribution"]
+        metrics:
+          required: ["operating_state"]
+          optional: ["output_voltage"]
+        include_alarms: true
+
+  compare_room_peers:
+    version: "1"
+    steps:
+      - id: "peer_temperature"
+        action: "peer_evidence"
+        selector: "same_room_same_device_type"
+        metrics:
+          required: ["supply_air_temperature"]
+          optional: []
+        include_alarms: false

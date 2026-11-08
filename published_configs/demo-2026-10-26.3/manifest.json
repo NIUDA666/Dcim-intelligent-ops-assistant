@@ -1,0 +1,37 @@
+{
+  "bundle_version": "demo-2026-10-26.3",
+  "dependencies": {
+    "ac_supply_temperature_high": [
+      "check_self_basic",
+      "compare_room_peers",
+      "trace_upstream_cooling",
+      "1"
+    ],
+    "ac_supply_temperature_high_dx": [
+      "check_self_basic",
+      "compare_room_peers",
+      "1"
+    ]
+  },
+  "fallback_plan_hash": "4fa692aa4cd72a186466689355ff610df7212964f0b27dfda3e1dbeb9f93a9f9",
+  "published_at": "2026-11-06T15:46:36+08:00",
+  "scenario_plan_hashes": {
+    "ac_supply_temperature_high": "acd9934694bdb34b6f5b7bda86a5dc1d0d372f086a586e099b961d85e18100db",
+    "ac_supply_temperature_high_dx": "a6004da7f2a91b7c4ee277f3f63c2bc3e2cdf3fa58368fd3ef3a152c3c29392c"
+  },
+  "source_hashes": {
+    "alarm_dictionary.json": "12b3f24b5d9d5ea453fcea460c9a61d9fab539ffcc641b8d53e6adfeb111b145",
+    "fallback.yaml": "7c2711827a36ef5feff191b48243052eaf4d82cc2b8eec042ed5478f278b5ee3",
+    "feature_profiles.json": "695a9c024bd30733e83e22652c69243bbe7d914449b46b797299ec9929ea2ca6",
+    "metric_dictionary.json": "16da3eba640af91848df817c62eeaa04f9dd1e1ce8a8ae63a43af4110ef1804f",
+    "parameter_sets.json": "dc17588cc736506a86ffd29d9b5c24689b84850944fa5c7c8ebc8c49f6a9bd90",
+    "scenario_snippets.yaml": "baa68a74b78db58a7bef2b37a04a8160fcbaeb702799c1e806cccfd27d4f026a",
+    "scenarios.yaml": "95fada9f6cafbe9697ac3110d98721f3078b07c94be8d7902d8fa90ac8e8b08b"
+  },
+  "unreferenced_snippets": [
+    "trace_upstream_power"
+  ],
+  "warnings": [
+    "存在未被场景引用的片段：trace_upstream_power"
+  ]
+}

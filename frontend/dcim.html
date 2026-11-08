@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>云枢 DCIM · 模拟演示环境</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="stylesheet" href="/static/dcim.css" />
+</head>
+<body class="dcim">
+  <header class="dcim-top">
+    <a class="dcim-brand" href="/" aria-label="云枢 DCIM 首页">
+      <span class="brand-glyph" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </span>
+      <span class="brand-text">
+        <strong>云枢 DCIM</strong>
+        <small>数据中心基础设施管理平台</small>
+      </span>
+    </a>
+    <div class="dcim-global">
+      <span class="site-pill">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 2 5v8.5h4.2V9.2h3.6v4.3H14V5L8 1.5Z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+        华东 · 演示园区 / 数据中心 A
+      </span>
+      <label class="global-search">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.4" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="m10.4 10.4 3.3 3.3" stroke="currentColor" stroke-width="1.3"/></svg>
+        <input type="search" placeholder="搜索设备、机柜、告警" aria-label="全局搜索" />
+      </label>
+    </div>
+    <div class="dcim-status">
+      <span class="env-badge"><i></i>模拟演示环境</span>
+      <span class="anchor-clock" id="dcim-clock">2026-10-26 10:30</span>
+      <button type="button" class="help-btn" id="help-btn" aria-label="帮助">?</button>
+      <span class="user-chip"><span class="avatar">值</span><span class="user-meta">值班工程师<small>演示账号</small></span></span>
+    </div>
+  </header>
+
+  <div class="dcim-shell">
+    <aside class="dcim-side" aria-label="主导航">
+      <div class="side-group">
+        <p class="side-label">运行监控</p>
+        <button type="button" class="nav-item" data-nav="总览">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><rect x="2" y="2" width="5.6" height="5.6" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="10.4" y="2" width="5.6" height="5.6" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="10.4" width="5.6" height="5.6" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="10.4" y="10.4" width="5.6" height="5.6" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+          总览
+        </button>
+        <button type="button" class="nav-item active" data-nav="机房视图" aria-current="page">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2.2 16V7.2L9 2.4l6.8 4.8V16H2.2Z" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M6.4 16v-4.4h5.2V16" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+          机房视图
+        </button>
+        <button type="button" class="nav-item" data-nav="设备资产">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><rect x="2.2" y="3" width="13.6" height="4.4" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/><rect x="2.2" y="10.6" width="13.6" height="4.4" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M5 5.2h.01M5 12.8h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          设备资产
+        </button>
+        <button type="button" class="nav-item" data-nav="告警中心">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 2.4a4.6 4.6 0 0 0-4.6 4.6v3.1L3 13h12l-1.4-2.9V7A4.6 4.6 0 0 0 9 2.4Z" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M7.2 15.2a1.9 1.9 0 0 0 3.6 0" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+          告警中心
+          <span class="nav-count">1</span>
+        </button>
+      </div>
+      <div class="side-group">
+        <p class="side-label">能效与冷源</p>
+        <button type="button" class="nav-item" data-nav="冷源群控">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 2v14M3 5.5l12 7M15 5.5l-12 7" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          冷源群控
+        </button>
+        <button type="button" class="nav-item" data-nav="能效分析">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2.5 14.5v-5M7 14.5V6M11.5 14.5V8.5M16 14.5V3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          能效分析
+        </button>
+      </div>
+      <div class="side-group">
+        <p class="side-label">运维协同</p>
+        <button type="button" class="nav-item" data-nav="工单管理">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M4 3h7l3 3v9H4V3Z" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M6.6 9h4.8M6.6 12h3.2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          工单管理
+        </button>
+        <button type="button" class="nav-item" data-nav="知识库">
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 3.4h5.2c1 0 1.8.8 1.8 1.8V15H4.8c-1 0-1.8-.8-1.8-1.8V3.4ZM15 3.4H9.8c-1 0-1.8.8-1.8 1.8V15h5.2c1 0 1.8-.8 1.8-1.8V3.4Z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+          知识库
+        </button>
+      </div>
+      <div class="side-foot">
+        <span class="side-dot"></span>
+        <div><b>采集服务正常</b><small id="side-bundle">配置包 —</small></div>
+      </div>
+    </aside>
+
+    <main class="dcim-main">
+      <div class="page-head">
+        <div>
+          <nav class="crumbs" aria-label="面包屑"><span>首页</span><i>/</i><span>机房视图</span><i>/</i><b>一号机房</b></nav>
+          <h1>一号机房 · 平面视图</h1>
+          <p class="page-sub">当前视图为模拟数据快照，用于演示运维助手的统一对话入口与取证过程。</p>
+        </div>
+        <div class="page-actions">
+          <span class="data-stamp">数据锚点 <b id="host-anchor">—</b></span>
+          <button type="button" class="btn ghost" id="refresh-btn">刷新快照</button>
+          <button type="button" class="btn primary" id="open-assistant-btn">打开运维助手</button>
+        </div>
+      </div>
+
+      <section class="kpi-row" aria-label="运行指标">
+        <article class="kpi">
+          <header>活动告警<span class="kpi-icon warn">!</span></header>
+          <div class="kpi-value">1<span>条</span></div>
+          <footer><span class="trend warn">未恢复</span><span>AC001 送风温度过高</span></footer>
+        </article>
+        <article class="kpi">
+          <header>设备在线<span class="kpi-icon ok">✓</span></header>
+          <div class="kpi-value">7<span>/ 7</span></div>
+          <footer><span class="trend ok">100%</span><span>监控对象均在线</span></footer>
+        </article>
+        <article class="kpi">
+          <header>机房送风均值<span class="kpi-icon cool">≈</span></header>
+          <div class="kpi-value">25.7<span>℃</span></div>
+          <footer><span class="trend warn">+2.1℃</span><span>相对 08:30 基线</span></footer>
+        </article>
+        <article class="kpi">
+          <header>当前 PUE<span class="kpi-icon neutral">∿</span></header>
+          <div class="kpi-value">1.32</div>
+          <footer><span class="trend ok">稳定</span><span>近 2 小时波动 ±0.02</span></footer>
+        </article>
+      </section>
+
+      <div class="board">
+        <section class="floor-card" aria-label="一号机房平面图">
+          <header class="card-head">
+            <div>
+              <h2>一号机房 <span class="mono-tag">room_01</span></h2>
+              <p>3 台精密空调 · 12 个机柜 · 冷通道封闭</p>
+            </div>
+            <div class="legend">
+              <span><i class="lg ok"></i>正常</span>
+              <span><i class="lg warn"></i>告警</span>
+              <span><i class="lg muted"></i>机柜</span>
+              <span class="legend-hint">点击空调或告警带入对话</span>
+            </div>
+          </header>
+          <div class="floor-map" id="room-01"></div>
+          <footer class="card-foot">
+            <span>平面图与设备状态为模拟数据，不对应真实机房。</span>
+            <span class="mono-tag">topology: current_snapshot</span>
+          </footer>
+        </section>
+
+        <aside class="alarm-card" aria-label="实时告警">
+          <header class="card-head">
+            <div>
+              <h2>实时告警</h2>
+              <p>窗口内 3 条记录 · 1 条未恢复</p>
+            </div>
+            <span class="badge badge-danger">1 活动</span>
+          </header>
+          <div class="alarm-list" id="alarm-list"></div>
+          <footer class="card-foot">
+            <span>点击告警可让助手按该设备与时间窗取证。</span>
+          </footer>
+        </aside>
+      </div>
+
+      <div class="lower-grid">
+        <section class="floor-card compact" aria-label="二号机房平面图">
+          <header class="card-head">
+            <div>
+              <h2>二号机房 <span class="mono-tag">room_02</span></h2>
+              <p>2 台精密空调 · 含同名设备 AC001（二号机房）</p>
+            </div>
+            <span class="badge badge-muted">正常</span>
+          </header>
+          <div class="floor-map compact" id="room-02"></div>
+        </section>
+
+        <section class="support-card" aria-label="支持区设备">
+          <header class="card-head">
+            <div>
+              <h2>支持区</h2>
+              <p>冷源机房与配电间</p>
+            </div>
+          </header>
+          <div class="support-list" id="support-devices"></div>
+        </section>
+
+        <section class="assistant-promo" aria-label="助手入口说明">
+          <span class="promo-orb">AI</span>
+          <h2>一个对话入口，连接知识、数据与页面</h2>
+          <p>问趋势、查告警、确认设备状态。助手只负责理解意图和表达，取证步骤由后端按已发布配置执行。</p>
+          <button type="button" class="btn primary" id="promo-open">从当前机房开始提问</button>
+          <ul class="promo-points">
+            <li>来源分离：用户口述、平台告警、后端计算分别标注</li>
+            <li>映射缺失直接返回，不按名称相似度猜设备</li>
+            <li>部分失败不清空成功结果，未知不等于正常</li>
+          </ul>
+        </section>
+      </div>
+
+      <footer class="page-foot">
+        <span>云枢 DCIM · 演示环境</span>
+        <span>运维助手 V1.3.1 · 模式 A 配置驱动取证</span>
+        <a href="/debug">后端取证调试控制台</a>
+      </footer>
+    </main>
+  </div>
+
+  <button type="button" class="assistant-fab" id="assistant-fab" aria-label="打开运维助手">
+    <span class="fab-orb">AI</span>
+    <span class="fab-text">运维助手</span>
+    <span class="fab-dot" aria-hidden="true"></span>
+  </button>
+
+  <div class="drawer-scrim" id="drawer-scrim" hidden></div>
+
+  <aside class="assistant-drawer" id="assistant-drawer" aria-label="运维助手对话" aria-hidden="true">
+    <header class="drawer-head" title="按住标题栏拖动窗口，双击复位">
+      <span class="drawer-grip" aria-hidden="true"></span>
+      <div class="drawer-title">
+        <span class="ai-orb">AI</span>
+        <div>
+          <strong>运维助手</strong>
+          <small><i class="live-dot"></i>配置驱动取证 · 模拟数据</small>
+        </div>
+      </div>
+      <div class="drawer-tools">
+        <button type="button" class="icon-btn" id="new-chat-btn" title="新会话">新会话</button>
+        <button type="button" class="icon-btn close" id="close-drawer-btn" aria-label="关闭助手">×</button>
+      </div>
+    </header>
+
+    <div class="drawer-body" id="chat-scroll">
+      <div class="chat-welcome" id="chat-welcome">
+        <div class="welcome-orb" aria-hidden="true"><span>AI</span></div>
+        <h2>值班问题，直接问</h2>
+        <p>我会先识别意图，再由后端按已发布的证据计划查设备、测点、告警与知识库。数据缺失会明确标注，不会猜测设备。</p>
+        <div class="welcome-chips" id="welcome-chips">
+          <button type="button" class="suggest" data-query="一号机房AC001送风温度最近两小时趋势，如果有异常再分析">分析 AC001 送风温度趋势</button>
+          <button type="button" class="suggest" data-query="梳理一下今天一号机房AC001高温告警发生了几次，现在还有几条未恢复">核对今日告警次数与活动告警</button>
+          <button type="button" class="suggest" data-query="精密空调巡检项有哪些">精密空调巡检项有哪些</button>
+          <button type="button" class="suggest" data-query="AC001送风温度现在多少">AC001 现在多少度（重名确认）</button>
+        </div>
+        <div class="welcome-note">
+          <span>当前会话使用模拟数据</span>
+          <span>查询锚点 <b id="drawer-anchor">—</b></span>
+        </div>
+      </div>
+      <div class="chat-thread" id="chat-thread"></div>
+    </div>
+
+    <div class="drawer-composer">
+      <div class="context-chip" id="context-chip" hidden>
+        <span class="ctx-icon" aria-hidden="true">◎</span>
+        <span class="ctx-text" id="context-text"></span>
+        <button type="button" class="ctx-close" id="context-close" aria-label="移除上下文">×</button>
+      </div>
+      <div class="composer-box" id="composer-box">
+        <label class="sr-only" for="chat-input">输入问题</label>
+        <textarea id="chat-input" rows="1" maxlength="2000" placeholder="描述现象、设备或要查的数据…"></textarea>
+        <div class="composer-bar">
+          <div class="composer-hints">
+            <span><kbd>Ctrl</kbd> + <kbd>Enter</kbd> 发送</span>
+            <span class="hint-sep">·</span>
+            <span id="composer-mode">模式 A · 后端取证</span>
+          </div>
+          <button type="button" class="send-btn" id="chat-send" aria-label="发送">
+            <span class="send-label">发送</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10 17 3l-3.6 14-3.9-5.1L3 10Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9.5 11.9 17 3" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+        </div>
+      </div>
+      <p class="composer-note">回答仅基于模拟数据与已发布配置；控制类操作（启停、下发设定值、派单）未开放。</p>
+    </div>
+  </aside>
+
+  <div class="report-modal" id="report-modal" hidden>
+    <div class="report-modal-card" role="dialog" aria-modal="true" aria-labelledby="report-modal-title">
+      <header class="report-modal-head">
+        <div>
+          <h3 id="report-modal-title">核查依据</h3>
+          <p>结论、关键观测、数据缺口与检查依据；不作为新的异常证据。</p>
+        </div>
+        <button type="button" class="report-modal-close" id="report-modal-close" aria-label="关闭核查依据">×</button>
+      </header>
+      <div class="report-modal-body" id="report-modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
+
+  <script type="module" src="/static/dcim.js"></script>
+</body>
+</html>

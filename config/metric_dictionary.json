@@ -1,0 +1,60 @@
+{
+  "schema_version": "metric-dictionary/1",
+  "dictionary_version": "demo-1",
+  "metrics": {
+    "supply_air_temperature": {
+      "name": "送风温度",
+      "unit": "°C",
+      "value_type": "float",
+      "device_types": ["precision_air_conditioner"],
+      "aggregations": ["latest", "avg", "max", "min"],
+      "aliases": ["送风温度", "出风温度", "送风"],
+      "quality_required": true
+    },
+    "return_air_temperature": {
+      "name": "回风温度",
+      "unit": "°C",
+      "value_type": "float",
+      "device_types": ["precision_air_conditioner"],
+      "aggregations": ["latest", "avg", "max", "min"],
+      "aliases": ["回风温度", "回风"],
+      "quality_required": true
+    },
+    "fan_speed_feedback": {
+      "name": "风机转速反馈",
+      "unit": "rpm",
+      "value_type": "integer",
+      "device_types": ["precision_air_conditioner"],
+      "aggregations": ["latest", "avg", "max", "min"],
+      "aliases": ["风机转速", "风机反馈", "转速"],
+      "quality_required": true
+    },
+    "chilled_water_supply_temperature": {
+      "name": "冷冻水供水温度",
+      "unit": "°C",
+      "value_type": "float",
+      "device_types": ["chiller"],
+      "aggregations": ["latest", "avg", "max", "min"],
+      "aliases": ["冷冻水供水温度", "冷冻供水温度", "供水温度", "冷冻水温度"],
+      "quality_required": true
+    },
+    "operating_state": {
+      "name": "运行状态",
+      "unit": null,
+      "value_type": "enum",
+      "device_types": ["precision_air_conditioner", "chiller", "power_distribution"],
+      "aggregations": ["latest"],
+      "aliases": ["运行状态", "开关状态", "状态"],
+      "quality_required": true
+    },
+    "output_voltage": {
+      "name": "输出电压",
+      "unit": "V",
+      "value_type": "float",
+      "device_types": ["power_distribution"],
+      "aggregations": ["latest", "avg", "max", "min"],
+      "aliases": ["输出电压", "电压"],
+      "quality_required": true
+    }
+  }
+}

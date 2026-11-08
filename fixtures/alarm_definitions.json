@@ -1,0 +1,72 @@
+[
+  {
+    "asset_id": "asset_ac001",
+    "alarm_type_id": "alarm_ac001_supply_high",
+    "metric_code": "supply_air_temperature",
+    "anomaly_kind": "high",
+    "name": "送风温度高",
+    "aliases": [
+      "高温告警",
+      "送风温度高",
+      "高温"
+    ],
+    "lifecycle_mode": "occurrence_recovery",
+    "version": "demo-1"
+  },
+  {
+    "asset_id": "asset_ac002",
+    "alarm_type_id": "alarm_ac002_supply_high",
+    "metric_code": "supply_air_temperature",
+    "anomaly_kind": "high",
+    "name": "送风温度高",
+    "aliases": [
+      "高温告警",
+      "送风温度高",
+      "高温"
+    ],
+    "lifecycle_mode": "occurrence_recovery",
+    "version": "demo-1"
+  },
+  {
+    "asset_id": "asset_ac003",
+    "alarm_type_id": "alarm_ac003_supply_high",
+    "metric_code": "supply_air_temperature",
+    "anomaly_kind": "high",
+    "name": "送风温度高",
+    "aliases": [
+      "高温告警",
+      "送风温度高",
+      "高温"
+    ],
+    "lifecycle_mode": "occurrence_recovery",
+    "version": "demo-1"
+  },
+  {
+    "asset_id": "asset_ac001_r2",
+    "alarm_type_id": "alarm_ac001_r2_supply_high",
+    "metric_code": "supply_air_temperature",
+    "anomaly_kind": "high",
+    "name": "送风温度高",
+    "aliases": [
+      "高温告警",
+      "送风温度高",
+      "高温"
+    ],
+    "lifecycle_mode": "occurrence_recovery",
+    "version": "demo-1"
+  },
+  {
+    "asset_id": "asset_ac004",
+    "alarm_type_id": "alarm_ac004_supply_high",
+    "metric_code": "supply_air_temperature",
+    "anomaly_kind": "high",
+    "name": "送风温度高",
+    "aliases": [
+      "高温告警",
+      "送风温度高",
+      "高温"
+    ],
+    "lifecycle_mode": "occurrence_recovery",
+    "version": "demo-1"
+  }
+]
